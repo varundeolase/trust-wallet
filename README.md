@@ -11,23 +11,15 @@ A simple Go application that exposes an API to interact with the Polygon blockch
 - **Local Testing**: Can be run locally with `go run .` or via Docker.
 
 ## Project Structure
-├── src
-│   ├── controller
-│   │   ├── **/*.css
-│   ├── views
-│   ├── model
-│   ├── index.js
-├── public
-│   ├── css
-│   │   ├── **/*.css
-│   ├── images
-│   ├── js
-│   ├── index.html
-├── dist (or build
-├── node_modules
-├── package.json
-├── package-lock.json
-└── .gitignore
+├── main.go
+├── go.mod
+├── go.sum
+├── Dockerfile
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+└── README.md
 
 
 ## Running Locally
